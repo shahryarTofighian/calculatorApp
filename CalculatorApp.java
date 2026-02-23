@@ -120,10 +120,11 @@ public class CalculatorApp {
             case 4 -> { result = calc.min(nums); name = "Min"; }
             default -> throw new InvalidOperationException("خطا: عملیات نامعتبر انتخاب شده است.");
         }
-
         System.out.println("نتیجه: " + result);
         history.add(name + " " + nums + " = " + result);
     }
+
+
 
     // ---------- Safe Input ----------
     private static int readIntSafe(Scanner sc) {
