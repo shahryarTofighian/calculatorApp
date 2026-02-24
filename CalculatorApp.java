@@ -7,10 +7,6 @@ import java.util.Scanner;
 public class CalculatorApp {
 
     public static void main(String[] args) {
-        System.out.println("hello");
-        System.out.println("hello");
-        System.out.println("hello");
-
         Scanner sc = new Scanner(System.in);
 
         CalculatorService calc = new CalculatorService();
